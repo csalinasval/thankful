@@ -1,16 +1,30 @@
 <template>
   <div id="app">
-    <List todos="todos" />
+    <Header />
+    <div class="row">
+      <div class="one-third column">
+        <SideMenu />
+      </div>
+      <div class="one-third column">
+        <List todos="todos" />
+      </div>
+      <div class="one-third column">
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import List from './components/List.vue'
+import List from './components/List'
+import Header from './components/Header'
+import SideMenu from './components/SideMenu'
 
 export default {
   name: 'app',
   components: {
-    List
+    List,
+    Header,
+    SideMenu
   },
 }
 </script>

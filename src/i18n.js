@@ -5,7 +5,6 @@ Vue.use(VueI18n);
 
 const messages = {
     'es': {
-        content: 'Contenido',
         contentPlaceholder: 'Me siento agradecido a causa de …',
         save: 'Guardar',
         emptyContentError: 'Debes escribir algo antes de guardar',
@@ -13,7 +12,6 @@ const messages = {
         noContentTitle: 'Aun no has anotado nada'
     },
     'en': {
-        content: 'Content',
         contentPlaceholder: 'I am feeling grateful because of …',
         save: 'Save',
         emptyContentError: 'You should write something before save',
